@@ -23,7 +23,7 @@ class Anagram
       x = word.split("")
       x = x.sort
       #binding.pry
-      if x possible_anagram
+      if x == possible_anagram
         @@matches << @some_word
       end
       
