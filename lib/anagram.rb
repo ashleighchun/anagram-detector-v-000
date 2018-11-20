@@ -22,9 +22,6 @@ class Anagram
       word.split("") == possible_anagram
       @@matches << word
       @@matches
-    else 
-      @@matches
-      binding.pry
     end
   end
   
