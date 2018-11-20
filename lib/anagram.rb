@@ -19,9 +19,13 @@ class Anagram
     possible_anagram = some_word.split("")
     
     given_array.each do |word| 
-      word.split("") == possible_anagram
-      @@matches << word
-      @@matches
+      x = word.split("")
+      if x == possible_anagram
+        @@matches << word
+        @@matches
+      else 
+        @@matches
+      end
     end
   end
   
