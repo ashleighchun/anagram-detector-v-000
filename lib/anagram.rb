@@ -25,7 +25,7 @@ class Anagram
       #binding.pry
       if x == possible_anagram
         @@matches << @some_word
-        binding.pry
+        #binding.pry
         @@matches
       end
       
