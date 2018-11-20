@@ -10,7 +10,7 @@ class Anagram
   def initialize(possible_anagrams)
     @possible_anagrams = possible_anagrams
   end
-  
+  binding.pry
   def match(possible_anagrams)
     
   
