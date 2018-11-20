@@ -12,11 +12,11 @@ class Anagram
   end
  
   
-  def match(given_string)
+  def match(given_array)
     binding.pry
     #if some_word matches any word(s) in given_array then return word(s)
     #otherwise return empty array    
-    #new_array = given_string.split(" ")
+    #new_array = given_array.split(" ")
     #new_array
     
   end
