@@ -14,7 +14,7 @@ class Anagram
   
   def match(given_array)
     #
-    #if some_word matches any word(s) in given_array then return word(s)
+    #if some_word anagram matches any word(s) in given_array then return word(s)
     #otherwise return empty array    
     possible_anagram = some_word.split("")
     
