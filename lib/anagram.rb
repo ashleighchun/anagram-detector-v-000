@@ -5,15 +5,16 @@ class Anagram
 
   @@matches = [] 
   
-  attr_accessor :possible_anagrams 
+  attr_accessor :some_word 
 
-  def initialize(possible_anagrams)
-    @possible_anagrams = possible_anagrams
+  def initialize(some_word)
+    @some_word = some_word
   end
   binding.pry
-  def match(possible_anagrams)
-    
   
+  def self.match(some_word)
+    word_array = some_word.split("")
+    word_array
   end
   @@matches
   
