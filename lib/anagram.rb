@@ -25,13 +25,13 @@ class Anagram
       x = x.sort
       #binding.pry
       if x == possible_anagram
-        @@matches << word
+        @matches << word
         #binding.pry
-        @@matches
+        @matches
       end
       
     end
-    @@matches
+    @matches
   end
   
 end 
