@@ -19,7 +19,7 @@ class Anagram
     possible_anagram = some_word.split("")
     
     if given_array.include?(possible_anagram)
-      @@matches << some_word
+      @@matches << 
       @@matches
     else 
       @@matches
