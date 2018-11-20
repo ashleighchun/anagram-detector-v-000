@@ -17,7 +17,7 @@ class Anagram
     #otherwise return empty array    
     new_array = given_string.split(" ")
     new_array
-     binding.pry
+    binding.pry
   end
   @@matches
   
