@@ -13,7 +13,7 @@ class Anagram
  
   
   def match(given_array)
-    #binding.pry
+    #
     #if some_word matches any word(s) in given_array then return word(s)
     #otherwise return empty array    
     if given_array.include?(some_word)
@@ -21,6 +21,7 @@ class Anagram
       matches
     else 
       @@matches
+      binding.pry
     end
   end
   
