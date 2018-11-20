@@ -21,9 +21,7 @@ class Anagram
       matches
     else 
       @@matches
-    
   end
-  @@matches
   
 end 
 
