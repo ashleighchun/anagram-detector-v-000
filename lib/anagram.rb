@@ -5,7 +5,7 @@ class Anagram
 
   @@matches = [] 
   
-  attr_accessor :some_word 
+  attr_accessor :some_word, :given_array 
 
   def initialize(some_word)
     @some_word = some_word
@@ -18,7 +18,7 @@ class Anagram
     #otherwise return empty array    
     possible_anagram = some_word.split("")
     
-    if given_array.include?(possible_anagram)
+    given_array.each do {|word| word.compare to (some_word)}
       @@matches << 
       @@matches
     else 
