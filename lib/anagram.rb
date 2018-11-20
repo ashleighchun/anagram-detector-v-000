@@ -18,8 +18,9 @@ class Anagram
     #otherwise return empty array    
     possible_anagram = some_word.split("")
     
-    given_array.each do {|word| word.compare to (some_word)}
-      @@matches << 
+    given_array.each do |word| 
+      word.split("") == possible_anagram
+      @@matches << word
       @@matches
     else 
       @@matches
