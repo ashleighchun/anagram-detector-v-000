@@ -21,7 +21,7 @@ class Anagram
     given_array.each do |word| 
       x = word.split("")
       #binding.pry
-      if x == possible_anagram
+      if x.find_all? possible_anagram
         @@matches << @some_word
       end
       
