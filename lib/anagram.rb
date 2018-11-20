@@ -10,13 +10,14 @@ class Anagram
   def initialize(some_word)
     @some_word = some_word
   end
-  binding.pry
+ 
   
-  def self.match(given_array)
+  def self.match(given_string)
     #if some_word matches any word(s) in given_array then return word(s)
     #otherwise return empty array    
-    word_array = given_array.split(" ")
-    word_array
+    new_array = given_string.split(" ")
+    new_array
+     binding.pry
   end
   @@matches
   
