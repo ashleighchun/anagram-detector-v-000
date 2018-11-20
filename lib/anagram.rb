@@ -13,6 +13,7 @@ class Anagram
   binding.pry
   
   def self.match(some_word)
+    #if some_word matches 
     word_array = some_word.split("")
     word_array
   end
