@@ -18,7 +18,7 @@ class Anagram
     #otherwise return empty array    
     possible_anagram = some_word.split("")
     binding.pry
-    if given_array.include?(some_word)
+    if given_array.include?(possible_anagram)
       @@matches << some_word
       matches
     else 
