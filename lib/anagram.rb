@@ -16,6 +16,8 @@ class Anagram
     #
     #if some_word matches any word(s) in given_array then return word(s)
     #otherwise return empty array    
+    possible_anagram = some_word.split(" ")
+    
     if given_array.include?(some_word)
       @@matches << some_word
       matches
