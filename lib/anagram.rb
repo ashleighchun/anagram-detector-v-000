@@ -23,7 +23,7 @@ class Anagram
       #binding.pry
       if x == possible_anagram
         @@matches << x.join
-        @@matches
+       
       else 
         @@matches
       end
