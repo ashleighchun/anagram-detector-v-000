@@ -5,7 +5,7 @@ class Anagram
 
   @@matches = [] 
   
-  attr_accessor :some_word, :given_array 
+  attr_accessor :some_word
 
   def initialize(some_word)
     @some_word = some_word
