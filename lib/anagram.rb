@@ -20,7 +20,7 @@ class Anagram
     
     given_array.each do |word| 
       x = word.split("")
-      binding.pry
+      #binding.pry
       if x == possible_anagram
         @@matches << x.join
         @@matches
