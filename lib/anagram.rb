@@ -24,8 +24,9 @@ class Anagram
       if x == possible_anagram
         @@matches << x.join
       end
-      @@matches
+      
     end
+    @@matches
   end
   
 end 
