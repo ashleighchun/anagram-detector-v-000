@@ -22,7 +22,7 @@ class Anagram
       x = word.split("")
       #binding.pry
       if x == possible_anagram
-        @@matches << x.join
+        @@matches << @some_word
       end
       
     end
