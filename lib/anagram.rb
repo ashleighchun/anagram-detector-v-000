@@ -20,7 +20,7 @@ class Anagram
     
     if given_array.include?(possible_anagram)
       @@matches << some_word
-      matches
+      @@matches
     else 
       @@matches
       binding.pry
